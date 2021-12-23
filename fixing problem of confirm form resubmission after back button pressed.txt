@@ -2,6 +2,11 @@
 
 <script>
   if ( window.history.replaceState ) {
-  window.history.replaceState( null, null, window.location.href );
+  window.history.replaceState( null, null, window.location.href );                                                                         
 }
 </script>
+
+//history api er maddome user window te za activity ho ta array hishebe store kora hoi.
+//ekjon user ,back button click korle,browser a kon gorottoporno information resubmission hoi kina sejonno error dei
+//ar ete somadaner jonno user ze page ache se page a rekhe dei
+//window.history.replaceState(id,title,url)
